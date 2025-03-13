@@ -17,7 +17,9 @@ function neuesKind() {
     add10btn.onclick = addMoney.bind(null, i); // Bind the index correctly
     add10btn.innerHTML = "+10€";
 
-    if (mon.value=="") return;
+    if (newkid.value=="") {
+        return 0;
+    }
 
     nam.className = "knownKidName";
     nam.innerHTML = newkid.value;
