@@ -6,9 +6,10 @@
 }
 
 body {
-    background-color: black;
+    background-color: rgb(119, 119, 119);
     color: white;
     font-family: sans-serif;
+    
 }
 
 .knownkidContainer {
@@ -17,3 +18,32 @@ body {
     margin: 10px;
 }
 
+.freshField {
+    width: 170px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 40px;
+    background-color: rgb(187, 187, 209);
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+.cleanbtn {
+    font-size: 30px;
+    text-align: center;
+    align-self: center;
+    background-color: rgb(63, 103, 235);
+    border-style: double;
+    border-radius: 100px;
+    border-width: 10px;
+    border-color: white;
+    color: white;
+    margin-bottom: 50px;
+    transition-duration: 0.6s;
+    
+}
+
+.cleanbtn:hover{
+    background-color: rgb(62, 62, 136);
+    font-size: 35px;
+}

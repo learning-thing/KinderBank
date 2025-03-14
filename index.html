@@ -5,18 +5,18 @@
     </head>
     <body>
         <h1 id="timmy">Bank Verwaltung</h1>
-        <button onclick="neuesKind()">Benutzer Hinzufügen</button>
+        <button onclick="neuesKind()" class="cleanbtn">Benutzer Hinzufügen</button>
+        <button onclick="save()" class="cleanbtn">Speichern</button>
+        <button onclick="load()" class="cleanbtn">Laden</button>
+        <button onclick="empty()" class="cleanbtn">Zurücksetzen</button>
         <form>
-            <input type="text" id="newkidname">
-            <input type="text" id="newkidmoney">
+            <input type="text" id="newkidname" class="freshField">
+            <input type="text" id="newkidmoney" class="freshField">
 
 
             </input>
             <ul id="knownKids">
-                <li class="knownkidContainer">
-                    <div class="knownKidName">David</div>
-                    <div class="knownKidMoney">200</div>
-                </li>
+
             </ul>
         </form>
         <script src="index.js"></script>
